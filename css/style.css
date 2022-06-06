@@ -258,6 +258,8 @@ header {
 
 .intro {
     position: relative;
+    
+    
 }
 
 .intro__img {
@@ -475,6 +477,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
 
 }
 
@@ -484,9 +487,33 @@ header {
     
 }
 
+.emailportfolio__item {
+    background: white;
+    overflow: hidden;
+    
+}
+
+.emailTitle {
+    padding-bottom: 20px;
+}
+.emailInfo {
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+
+}
+.email {
+    padding-top: 0;
+}
+
+
+
+
 .portfolio__img {
+    
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
+    
+    
 }
 
 .portfolio__item:focus {
@@ -611,4 +638,9 @@ font-size: var(--fs-h3);
     margin-top: 10px;
     font-weight: var(--fw-bold);
 }
+
+
+
+
+
 
