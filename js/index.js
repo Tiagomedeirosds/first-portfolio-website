@@ -21,10 +21,12 @@ const sr = ScrollReveal({
     //reset:true
 })
 
-sr.reveal(`.intro`)
-sr.reveal(`.my-work`,{delay:1800, origin: 'right'})
-sr.reveal(`.email`,{delay:600, origin: 'left'})
+sr.reveal(`.intro`) 
+sr.reveal(`.intro__img`,{delay:600, origin: 'right'})
+sr.reveal(`.my-work`,{delay:2000, origin: 'left'})
+sr.reveal(`.email`,{delay:600, origin: 'right'})
 sr.reveal(`.about-me`)
-sr.reveal(`.my-services`,{delay:600, origin: 'bottom'})
+sr.reveal(`.about-me__img`,{delay:600, origin: 'right'})
+sr.reveal(`.service`,{delay:600, origin: 'bottom'})
 sr.reveal(`.portfolio-item-individual`,{delay:600, origin: 'bottom'})
 
